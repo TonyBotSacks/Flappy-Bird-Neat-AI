@@ -292,6 +292,6 @@ class env:
                     break
 
 flappy = env()
-#agents = Agents(100, flappy.ai_mode, 'Flappy_bird.txt', 'flappy_neat2.pkl')
-#agents.train()
-flappy.game_mode(True, 'Flappy_bird.txt', 'flappy_neat2.pkl')
+agents = Agents(100, flappy.ai_mode, 'Flappy_bird.txt', 'flappy_neat.pkl')
+agents.train()
+flappy.game_mode(True, 'Flappy_bird.txt', 'flappy_neat.pkl')
