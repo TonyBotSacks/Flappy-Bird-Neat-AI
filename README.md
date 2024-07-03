@@ -15,7 +15,7 @@ Flappy bird environment with neat-python implementation.
 
 The training agent with the default config file manages to play upto 200 points. Modify the config file as needed to see different results.
 
-# Enviroment/Game
+# Environment/Game
 
 Flappy bird can also be played with hte keyboard controls by modifying line 297:
 
